@@ -1,0 +1,22 @@
+[commit]
+    gpgsign = true
+[core]
+    autocrlf = input
+#    editor = code --wait --new-window
+    editor = \"C:\\Users\\y15un\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+#[diff]
+#    tool = vscode
+#[difftool "vscode"]
+#    cmd = code --wait --new-window --diff $LOCAL $REMOTE
+[init]
+    defaultbranch = main
+#[merge]
+#    tool = vscode
+#[mergetool "vscode"]
+#    cmd = code --wait --new-window $MERGED
+[tag]
+    gpgsign = true
+[user]
+    email = y15un@y15un.dog
+    name = ylsun
+    signingkey = 0x6195DEEDEBDBD7F0

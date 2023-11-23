@@ -1,0 +1,13 @@
+--- .gitconfig
++++ .gitconfig
+@@ -2,8 +2,8 @@
+     gpgsign = true
+ [core]
+     autocrlf = input
+-#    editor = code --wait --new-window
+-    editor = \"C:\\Users\\y15un\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
++    editor = code --wait --new-window
++#    editor = \"C:\\Users\\y15un\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+ #[diff]
+ #    tool = vscode
+ #[difftool "vscode"]
